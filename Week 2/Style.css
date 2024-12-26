@@ -1,0 +1,27 @@
+.main-cont{
+    margin-left: 698px;
+}
+.container > img{
+        width: 440px;
+        max-width: 450px;
+        padding: 6px;
+        
+        
+       
+}
+.container > a p{
+    padding-left: 100px;
+    font-size: 30px;
+}
+.container2 > a p{
+    padding-left: 140px;
+    font-size: 30px;
+}
+.container{
+    margin-left: 20px;
+}
+.container2 > img{
+    width: 440px;
+    max-width: 450px;
+    padding: 6px;
+}
