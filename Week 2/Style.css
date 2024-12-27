@@ -1,5 +1,6 @@
 .main-cont{
     margin-left: 698px;
+    
 }
 .container > img{
         width: 440px;
@@ -40,6 +41,7 @@
     margin-left: 730px;
   }
   img{
+
     width: 80px;
   }
 
@@ -48,9 +50,29 @@
 a img {
     width: 80px;
   }
-  img {
-    width: 200px;
+  .img2 {
+    width: 220px;
+    
+    margin-left: 90px;
   }
   .main-cont1 {
     margin-left: 639px;
+    
   }
+  .qualification-table{
+    margin-left: 159.1px;
+    margin-top: -20px;
+  }
+  .select-coursey{
+    margin-left: 57px;
+  }
+  .move{
+    margin-left: -70px;
+  }
+  #right-things {
+    position: relative;
+    left: 100px;  /* Adjust this value to move it to the right */
+}
+.move2{
+  margin-left: 379px;
+}

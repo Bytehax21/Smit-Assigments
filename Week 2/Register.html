@@ -7,46 +7,12 @@
     <link rel="stylesheet" href="Style.css">
     <style>
    
-    /* .qualification-section {
-      display: flex;
-      align-items: flex-start;
-      margin-top: 20px;
-    }
-
-    .qualification-label {
-      width: 20%;
-      font-weight: bold;
-    }
-
-    .qualification-table {
-      width: 80%;
-    }
-
-    .qualification-table table {
-      width: 100%;
-      border-collapse: collapse;
-    }
-
-    .qualification-table table th,
-    .qualification-table table td {
-      border: 1px solid #ddd;
-      padding: 8px;
-      text-align: left;
-    }
-
-    .qualification-table table th {
-      background-color: #f4f4f4;
-    }
-
-    /* input[type="text"] {
-      width: 90%;
-    } */
 
     .note {
       font-size: 0.9em;
       color: #555;
       margin-top: 5px;
-    } */
+    }
     </style>
   </head>
   <body>
@@ -54,88 +20,65 @@
       <img src="/left-arrow.png" alt="" />
     </a>
     <div class="main-cont1">
+
       <div class="container3">
-        <img src="/logo.png" alt="" />
+        <img src="/logo.png" alt="" class="img2"/>
         <h2>STUDENT REGISTRATION FORM</h2>
         <label style="padding-right: 80px">FIRST NAME</label
-        ><input type="text" placeholder="Enter First name" /> (max 30 characters
-        a-z and A-Z) <br />
+        ><input type="text" placeholder="Enter First name"  id="right-things" /> <span style="margin-left: 100px;">(max 30 characters
+        a-z and A-Z)</span>  <br />
         <br />
         <label style="padding-right: 83px">LAST NAME</label
-        ><input type="text" placeholder="Enter Last name" /> (max 30 characters
-        a-z and A-Z) <br />
+        ><input type="text" placeholder="Enter Last name" id="right-things" /><span style="margin-left: 100px;"> (max 30 characters
+        a-z and A-Z) </span><br />
         <br />
         <label style="padding-right: 60px">DATE OF BIRTH</label
-        ><input type="date" /> <br />
+        ><input type="date" id="right-things" /> <br />
         <br />
         <label style="padding-right: 97px">EMAIL ID </label>
-        <input type="text" placeholder="Enter your Email Address" /> <br />
+        <input type="text" placeholder="Enter your Email Address" id="right-things"/> <br />
         <br />
         <label style="padding-right: 38px">MOBILE NUMBER</label
-        ><input type="text" placeholder="Enter the Mobile Number" /> (10 Digits
+        ><input type="text" placeholder="Enter the Mobile Number" id="right-things"/> <span style="margin-left: 100px;"></span>(10 Digits
         Numbers) <br />
         <br />
-        <label style="padding-right: 103px">GENDER</label> Male<input
-          type="radio"
+        <label style="padding-right: 200px">GENDER</label> 
+        Male<input
+          type="radio" 
         />
         Female<input type="radio" /> <br />
         <br />
         <label style="padding-right: 94px">ADDRESS</label>
-        <textarea id="address" name="address" rows="4" cols="38"></textarea>
+        <textarea  name="address" rows="4" cols="38" id="right-things"></textarea>
         <br /><br />
         <label style="padding-right: 131px">CITY</label
-        ><input type="text" placeholder="Enter the City Name" /> (max 30
-        characters a-z and A-Z) <br />
+        ><input type="text" placeholder="Enter the City Name"  id="right-things"/> <span style="margin-left: 100px;">(max 30
+        characters a-z and A-Z)</span> <br />
         <br />
         <label style="padding-right: 95px">PIN CODE</label
-        ><input type="text" placeholder="Enter the Pin Code" /> (6 Digits
-        Numbers) <br />
+        ><input type="text" placeholder="Enter the Pin Code" id="right-things" /> <span style="margin-left: 100px;">(6 Digits
+        Numbers)</span> <br />
         <br />
         <label style="padding-right: 121px">STATE</label
-        ><input type="text" placeholder="Enter the State" /> (max 30 characters
-        a-z and A-Z) <br />
+        ><input type="text" placeholder="Enter the State" id="right-things"/> <span style="margin-left: 100px;">(max 30 characters
+        a-z and A-Z)</span> <br />
         <br />
         <label style="padding-right: 91px">COUNTRY</label
-        ><input type="text" placeholder="Enter the Country Name" /> <br />
+        ><input type="text" placeholder="Enter the Country Name" id="right-things"/> <br />
         <br />
-        <label style="padding-right: 87px">HOBBIES</label>
+        <label style="padding-right: 191px;">HOBBIES</label>
         <input type="checkbox" />Drawing <input type="checkbox" /> Singing
         <input type="checkbox" /> Dancing <input type="checkbox" /> Sketching
         <input type="checkbox" /> Others <input type="text" /> <br />
         <br />
 
-<!-- QUALIFICATION starting -->
-          <div>
-          <label>QUALIFICATION</label>
-          <label>SI.No.Examination  </label>
-          <label>Board</label>
-          <label>Percentage</label>
-          <label>Year of passing</label>
-          <br> <br><p>1 Class X
-          <input type="text">
-          <input type="text">
-          <input type="text"></p> 
-        </div>
-        <!-- <div>
-          <div  style="position: absolute;
-          right: 470px;bottom: -100px;">1 Class X	<input type="text"/> <input type="text"/> <input type="text"/></div> <br>
-          <div style="position: absolute;
-          right: 470px;bottom: -100px">2 Class XII	<input type="text"/> <input type="text"/> <input type="text"/></div><br>
-          <div style="position: absolute;
-          right: 470px;bottom: -100px;">3 Graduation	<input type="text"/> <input type="text"/> <input type="text"/></div><br>
-          <div style="position: absolute;
-          right: 470px;bottom: -100px;">4 Masters	<input type="text"/> <input type="text"/> <input type="text"/></div>
-          
-        </div>
 
 
-        <!-- Chatty wrote this down -->
-
-        <!-- <div class="qualification-section">
+        <div class="qualification-section">
           <div class="qualification-label">
             <label>QUALIFICATION</label>
           </div>
-          <div class="qualification-table">
+          <div class="qualification-table" id="right-things">
             <table>
               <thead>
                 <tr style="border: hidden;">
@@ -179,8 +122,22 @@
             </table>
             <div class="note">(10 char max) &nbsp; &nbsp; (up to 2 decimal)</div>
           </div>
-        </div> -->
-      </div>
-    </div>
+        </div>
+      </div><br>
+      <label>COURSES <br>
+        APPLIED FOR </label> 
+        <select id="right-things" name="select" class="select-coursey">
+          <option value="">Select any Course</option>
+          <option value="">BCA</option>
+          <option value="">B.A</option>
+          <option value="">B.Sc</option>
+          <option value="">B.Com</option>
+        </select><br><br>
+        <label>Upload you pic <br>
+          (only .png,.jpg,.jpeg formats allow)	 </label> 
+          <input type="file" class="move" id="right-things"> <br> <br>
+          <input type="submit" class="move2"> <input type="reset">
+     </div>
+     
   </body>
 </html>
