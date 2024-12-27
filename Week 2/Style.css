@@ -25,3 +25,32 @@
     max-width: 450px;
     padding: 6px;
 }
+
+/* Login  <-- */
+.container1 {
+    max-width: 200px;
+    
+    margin-left: 764px;
+    margin-top: 85px;
+  }
+  .container1 > img {
+    width: 200px;
+  }
+  .login {
+    margin-left: 730px;
+  }
+  img{
+    width: 80px;
+  }
+
+/* Register  <-- */
+
+a img {
+    width: 80px;
+  }
+  img {
+    width: 200px;
+  }
+  .main-cont1 {
+    margin-left: 639px;
+  }
