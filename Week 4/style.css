@@ -235,4 +235,92 @@ body{
 .Text-content p{
   font-size: 18px;
   width: 40%;
+  margin-bottom: 20px;
+}
+
+.para{
+  margin-left: 570.891px;
+  margin-bottom: 90px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.exclamation{
+  position: relative;
+  
+}
+.fa-exclamation{
+  position: absolute;
+  left: -5%;
+  top: 6%;
+}
+
+
+.para h5{
+  font-size: 20px;
+  width: 58%;
+}
+
+.text1{
+  width: 98%;
+}
+.text2{
+  width: 49%;
+}
+
+.clock{
+  position: relative;
+}
+
+.fa-clock{
+  position: absolute;
+  top: 4%;
+  right: 101%;
+  
+}
+
+.black-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 30%;
+  background-color: var(--primary-color);
+  width: 790px;
+  height: 160px;
+  border-radius: 6px;
+  color: var(--secondary-color);
+  gap: 40px;
+}
+
+.black-box h2{
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 11px;
+
+}
+.black-para{
+  font-size: 17px;
+  font-weight: 300;
+  width: 500px;
+ 
+}
+
+.black-btn{
+  text-transform: capitalize;
+  border: none;
+  border-radius: 7px;
+  background: none;
+  background-color: var(--red);
+  text-align: center;
+  font-size: 16px;
+  color: var(--secondary-color);
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: all ease-in-out 0.4s;
+}
+
+.black-btn:hover{
+  background-color: #ce7171;
 }
