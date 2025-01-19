@@ -12,6 +12,8 @@
 
 body{
   font-family: Arial, Helvetica, sans-serif;
+  animation: animate__backInLeft;
+  animation-duration: 3s;
 }
 .Navbar {
   display: flex;
