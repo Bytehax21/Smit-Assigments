@@ -521,7 +521,7 @@ body{
 
 
 
-/* another nig code   */
+/*  Another Section   */
 
 
 .container-11-main {
@@ -562,7 +562,6 @@ body{
 
 
 
-/* child 01 end div */
 .child-02-main {
   width: 50%;
   height: 450px;
@@ -593,8 +592,7 @@ body{
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* container-11 end */
-/* container-12 start */
+
 .cont-12-main {
   margin-bottom: 100px;
   margin-top: 100px;
@@ -618,7 +616,7 @@ body{
   gap: 10px;
   display: flex;
   align-items: center;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   width: auto;
   
     position: absolute;
@@ -634,17 +632,17 @@ body{
   margin-left: 300px;
 }
 
-/* container-12 end */
-/* container-13 start */
+
 .container-13-main {
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
   display: flex;
   width: 100%;
+  margin-top: 17%;
   height: 800px;
   background-repeat: no-repeat;
-  background-image: url(./images/Body.png);
+  background-image: url(./Pics/Body.png);
 }
 
 .arrow-12 {
@@ -663,13 +661,12 @@ body{
 }
 
 .fa-solid:hover {
-  background-color: aqua;
-  color: rgb(0, 0, 0);
-  border: 2px solid black;
+  color:  blue;
+  cursor: pointer;
+ 
 }
 
-/* container-13 end */
-/* container-14 start */
+
 .container-14-main {
   padding-top: 100px;
   width: 100%;
@@ -711,9 +708,7 @@ body{
   height: 400px;
 }
 
-.card-01-img:hover {
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-}
+
 
 .card-01-img {
   border-radius: 15px;
@@ -722,10 +717,16 @@ body{
 }
 
 .img-14 {
-  width: 100%;
+ 
   height: 350px;
 }
+.coffee{
+  width: fit-content;
+}
 
+.picy{
+  width: 400px;
+}
 .card-text {
   margin-left: 70px;
   width: 100%;
@@ -733,8 +734,7 @@ body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* container-14 end */
-/* container-15 start */
+
 .cont-16-main {
   display: flex;
   justify-content: center;
@@ -750,7 +750,7 @@ body{
   width: 50%;
   height: 600px;
   background-size: cover;
-  background-image: url("./images/Image\ Largecc.png");
+  background-image: url("./Pics/Image\ Largecc.png");
 
 }
 
@@ -774,20 +774,30 @@ body{
 }
 
 .btn-16 {
-  background-color: rgb(0, 0, 173);
-  color: white;
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 1.5rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 7px;
+  background: none;
+  background-color: var(--red);
+  text-align: center;
+  font-size: 16px;
+  color: var(--secondary-color);
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: all ease-in-out 0.4s;
+  text-decoration-line: none ;
 }
+.btn-16:hover{
 
-/* container-16 end */
+
+background-color: #ce7171;}
+
+
 .footer {
   gap: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 50px;
+  height: 150px;
 }
