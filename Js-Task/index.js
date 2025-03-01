@@ -33,13 +33,3 @@ if (waterConsumption <= 30) {
             //
 
 
-
-//         let sentence = prompt("Enter a sentence:");
-// let vowels = "aeiou";
-// let count = 0;
-// for (let i = 0; i < sentence.length; i++) {
-//     if (vowels.indexOf(sentence[i].toLowerCase()) !== -1) {
-//         count++;
-//     }
-// }
-// alert("Number of vowels: " + count);
